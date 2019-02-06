@@ -16,6 +16,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 
 html {
+  background: #222;
+  color: #EEE;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
@@ -24,6 +27,13 @@ html {
 h1 {
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
   line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
+}
+
+p {
+  font-size: 11.125px;
+  line-height: 16.5px;
+  padding-bottom: 22px;
+
 }
 
 /* Forms */
@@ -57,13 +67,13 @@ input {
 * @author leshido
 */
 
-body {
+body.g {
   position: relative;
 }
 
-body::after {
+body.g::after {
   /* Change the `height` parameter here to match your base line-height. */
-  background: url('data:image/svg+xml;utf8,<svg height="22" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(255, 0, 0, 0.3)" /></svg>') repeat top left;
+   background: url('data:image/svg+xml;utf8,<svg height="22" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(255, 0, 0, 0.3)" /></svg>') repeat top left;
 
   content: "";
   display: block;
@@ -76,6 +86,6 @@ body::after {
   position: absolute;
 }
 
-body:active::after {
+body.g:active::after {
   display: none;
 }
