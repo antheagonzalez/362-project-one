@@ -40,6 +40,27 @@ p {
 input,
 label {
   display: block;
+  box-sizing: border-box;
+}
+
+input {
+  padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  border: 0;
+  outline: 0;
+  width: 100%
+
+}
+
+input[type="tel"] {
+  margin-bottom = 11px;
+  backgroun-color: rgba(67, 176,84,34l;
+}
+
+input[type="submit"] {
+  backgroun-color: rgba(69, 176,84,34l;
 }
 
 /* For colons */
