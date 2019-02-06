@@ -54,13 +54,17 @@ input {
 
 }
 
+input[type="tel"]:focus {
+  backgroun-color: rgba(67, 176,84,34);
+}
+
 input[type="tel"] {
   margin-bottom = 11px;
-  backgroun-color: rgba(67, 176,84,34l;
+  backgroun-color: rgba(67, 176,84,34);
 }
 
 input[type="submit"] {
-  backgroun-color: rgba(69, 176,84,34l;
+  backgroun-color: rgba(69, 176,84,34);
 }
 
 /* For colons */
