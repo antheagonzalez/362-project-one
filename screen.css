@@ -20,17 +20,20 @@ html {
   color: #222;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
-  line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
+  line-height: 1.2222222222em; /* 20 / 18 = 1.2222222222 */
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
 
 h1 {
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
-  line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
+  line-height: 1.1111111111em; /* 20 / 18 = 1.1111111111 */
+  padding-bottom: 0.667em; /* 12 / 18 = 0.667 */
 }
 
 p {
-  font-size: 0.618em; /* 11.125 / 18 = .618 */
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.889em; /* 16 / 18 = .889 */
   line-height: 0.9167em; /* 16.5 / 18 = .618 */
   padding-bottom: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 
@@ -68,19 +71,23 @@ input[type="text"]:focus {
 input[type="tel"] {
   margin-bottom: 0.611em; /* 11 / 18 = .611 */
   background-color: rgba(242, 186, 214, 1);
+  color: #233;
 }
 
 input[type="tel"]:focus {
   background-color: rgba(234, 143, 189, 1);
+  color: #233;
 }
 
 /*Submit*/
 input[type="submit"] {
   background-color: rgba(224, 87, 156, 1);
+  color: #222;
 }
 
 input[type="submit"]:disabled {
   background-color: rgba(232, 130, 181, 1);
+  color: #222;
 }
 
 /* For colons */
