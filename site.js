@@ -1,4 +1,4 @@
-(funciton(){
+(function(){
 // Browser sanity check
   if(!('querySelector' in document && 'addEventListener' in document)) {
     concole.log('Old browser');
@@ -16,10 +16,11 @@
 
   var tel_input = document.querySelector('#telephone');
   tel_input.addEventListener('focus', funciton(){
-    concole.log('Focusing on telephone input');
+    console.log('Focusing on telephone input');
 });
+
   tel_input.addEventListener('blur', funciton(){
-    concole.log('Not focusing on telephone input');
+    console.log('Not focusing on telephone input');
 });
   tel_input.addEventListener('keyup', funciton(){
     // Remove non digit characters
