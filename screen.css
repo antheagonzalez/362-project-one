@@ -27,7 +27,7 @@ html {
 h1 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
-  line-height: 1.1111111111em; /* 20 / 18 = 1.1111111111 */
+  line-height: 1.16666667em; /* 21 / 18 = 1.16666667*/
   padding-bottom: 0.667em; /* 12 / 18 = 0.667 */
 }
 
