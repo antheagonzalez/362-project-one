@@ -39,6 +39,9 @@ p {
 
 }
 
+figcaption {
+  padding: 1em 0 1em 0;
+}
 /* Forms */
 input,
 label {
@@ -103,6 +106,11 @@ label {
   flex: 1 0 auto;
   width: 33.333333333%;
 }
+/*Hawaii Beach Picture*/
+.hawaii-beach {
+  width: 100%;
+}
+
 
 /*Diagnostic CSS*/
 /**
