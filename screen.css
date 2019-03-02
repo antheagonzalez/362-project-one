@@ -16,7 +16,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 
 html {
-  background: #FAE4EF;
+  background: #FFDEAD;
   color: #222;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
@@ -27,6 +27,7 @@ html {
 h1 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
+  font-weight: bolder;
   line-height: 1.16666667em; /* 21 / 18 = 1.16666667*/
   padding-bottom: 0.667em; /* 12 / 18 = 0.667 */
 }
@@ -63,34 +64,38 @@ input {
 /*Name*/
 input[type="text"] {
   margin-bottom: 0.611em; /* 11 / 18 = .611 */
-  background-color: rgba(242, 186, 214, 1);
+  background-color: rgba(244, 164, 96, 1);
 }
 
 input[type="text"]:focus {
-  background-color: rgba(234, 143, 189, 1);
+  background-color: rgba(255, 140, 0, 1);
 }
 
 /*Telephone*/
 input[type="tel"] {
   margin-bottom: 0.611em; /* 11 / 18 = .611 */
-  background-color: rgba(242, 186, 214, 1);
+  background-color: rgba(244, 164, 96, 1);
   color: #233;
 }
 
 input[type="tel"]:focus {
-  background-color: rgba(234, 143, 189, 1);
+  background-color: rgba(255, 140, 0, 1);
   color: #233;
 }
 
 /*Submit*/
 input[type="submit"] {
-  background-color: rgba(224, 87, 156, 1);
+  background-color: rgba(210, 105, 30, 1);
   color: #222;
 }
 
 input[type="submit"]:disabled {
-  background-color: rgba(232, 130, 181, 1);
+  background-color: rgba(255, 140, 0, 1);
   color: #222;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(210, 105, 30, 1);
 }
 
 /* For colons */
